@@ -1,0 +1,39 @@
+## CONTACT INFORMATION
+- Email: [shahmeergull20@gmail.com](mailto:shahmeergull20@gmail.com)
+- Phone: +92-311-7433413
+- LinkedIn: [link to LinkedIn profile](https://www.linkedin.com/in/shahmeergull)
+
+## PROFESSIONAL PROFILE
+Highly motivated and detail-oriented AI engineer with expertise in **Large Language Models (LLMs)**, **Reinforcement Agents (RAGs)**, and **Prompt Engineering**. Proficient in developing scalable and efficient AI-driven solutions using **LangChain**, **ChromaDB**, and **Hugging Face**.
+
+## EDUCATION
+- Bachelor's in Computer Science - COMSATS University (2021-2025)
+  - [AI for Public Health](https://example.com/cert1)
+  - [Generative AI Advance Fine-Tuning](https://example.com/cert2)
+
+## SKILLS
+- **AI & Data Science:**
+  - **Python**, **PyTorch**, **scikit-learn**, **RAGs**, **Agents**, **Prompting**
+  - **LangChain**, **Hugging Face**, **IBM Watsonx.ai**
+- **Web Development:**
+  - **React.js**, **Tailwind CSS**, **Node.js**, **Express.js**, **RESTful APIs**
+  - **FastAPI**, **MySQL**, **Git**, **GitHub**, **Vercel**
+
+## EXPERIENCE
+- AI Intern - RASTA Tech (Remote) (2024-2024)
+  - Built GPT chatbots using **LangChain** and **ChromaDB**
+  - Created [cold email generator](https://github.com/cold-email)
+- Full Stack Intern - ByteSight Pvt Ltd, Islamabad (2024-2024)
+  - Developed responsive frontends using **React.js** and optimized performance
+  - Built dashboards and data visualization components with senior engineers
+
+## PROJECTS
+- **MarkVista** - Crypto Prediction & Risk Management
+  - Developed ML models for real-time crypto forecasting and broker integration
+  - Engineered risk profiles for automated portfolio adjustment
+- **RAG-Based Content Evaluation**
+  - Used BERT to embed lyrics and match evaluation questions via similarity
+- **Air Quality Modeling** - Bogotá
+  - Performed EDA with geo-visualizations; modeled pollution with KNN and neural networks
+- **Job Hunting Agent**
+  - Built LangChain system to generate tailored CVs, cover letters, and automated outreach

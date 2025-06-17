@@ -1,0 +1,14 @@
+March 17, 2023
+
+Dear Hiring Manager,
+
+I am excited to apply for the Generative AI Engineer position at Agreeya. As a Machine Learning Enthusiast with a strong background in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain, I am confident that my skills align with the requirements of this role.
+
+With my experience in building scalable AI solutions, I believe I can make a significant impact at Agreeya. My proficiency in Python, PyTorch, and scikit-learn, as well as my experience with RAGs, Agents, and Prompting, makes me a strong fit for this position. Additionally, my experience in developing responsive frontends using React.js and optimizing performance will enable me to contribute to the development of innovative solutions.
+
+I would appreciate the opportunity to discuss how my skills and experience can benefit Agreeya. Please feel free to contact me at shahmeergull20@gmail.com or +92-311-7433413.
+
+Thank you for your application.
+
+Sincerely,
+Shahmeer Gull

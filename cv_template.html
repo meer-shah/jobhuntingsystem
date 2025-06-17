@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ name }} - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      margin: 40px;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+    h2 {
+      font-size: 18px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 2px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    a {
+      color: #0073b1;
+      text-decoration: none;
+    }
+    ul {
+      margin: 5px 0 10px 20px;
+      padding: 0;
+    }
+    li {
+      margin: 3px 0;
+    }
+    .section {
+      margin-bottom: 15px;
+    }
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+    .contact > div {
+      margin-right: 15px;
+    }
+    .job-title {
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    .date {
+      float: right;
+      font-style: italic;
+    }
+    .project-title {
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    .certification {
+      margin-left: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>{{ name }}</h1>
+  <div class="contact">
+    <div>Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></div>
+    <div>Phone: {{ contact.phone }}</div>
+    <div>
+      {% if contact.linkedin %}<a href="{{ contact.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+      {% if contact.github %}{% if contact.linkedin %} | {% endif %}<a href="{{ contact.github }}" target="_blank">GitHub</a>{% endif %}
+    </div>
+  </div>
+
+  {% if professional_profile.content %}
+  <div class="section">
+    <h2>PROFESSIONAL PROFILE</h2>
+    <p>{{ professional_profile.content | replace('
+', '<br>') }}</p>
+  </div>
+  {% endif %}
+
+  {% if education.items %}
+  <div class="section">
+    <h2>EDUCATION AND CERTIFICATIONS</h2>
+    {% for item in education.items %}
+    <div class="education-item">
+      <div class="job-title">
+        {{ item.text }}
+        {% if item.date %}<span class="date">{{ item.date }}</span>{% endif %}
+      </div>
+      {% if item.bullet_points %}
+      <ul>
+        {% for point in item.bullet_points %}
+        <li>
+          {% if point.link %}<a href="{{ point.link }}" target="_blank">{% endif %}
+          {{ point.text }}
+          {% if point.link %}</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if skills.items %}
+  <div class="section">
+    <h2>SKILLS</h2>
+    <ul>
+      {% for item in skills.items %}
+        {% set parts = item.text.split(':', 1) %}
+        {% if parts|length > 1 %}
+          <li><strong>{{ parts[0] }}:</strong> {{ parts[1] }}</li>
+        {% else %}
+          <li>{{ item.text }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if experience.items %}
+  <div class="section">
+    <h2>EXPERIENCE</h2>
+    {% for item in experience.items %}
+    <div class="job-entry">
+      <div class="job-title">
+        {{ item.text }}
+        {% if item.date %}<span class="date">{{ item.date }}</span>{% endif %}
+      </div>
+      {% if item.bullet_points %}
+      <ul>
+        {% for point in item.bullet_points %}
+        <li>
+          {% if point.link %}<a href="{{ point.link }}" target="_blank">{% endif %}
+          {{ point.text }}
+          {% if point.link %}</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if projects.items %}
+  <div class="section">
+    <h2>PROJECTS</h2>
+    {% for item in projects.items %}
+    <div class="project-entry">
+      <div class="project-title">
+        {% if item.link %}<a href="{{ item.link }}" target="_blank">{% endif %}
+        {{ item.text }}
+        {% if item.link %}</a>{% endif %}
+      </div>
+      {% if item.bullet_points %}
+      <ul>
+        {% for point in item.bullet_points %}
+        <li>{{ point.text }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if certifications.items %}
+  <div class="section">
+    <h2>CERTIFICATIONS</h2>
+    <ul>
+      {% for item in certifications.items %}
+      <li>
+        {% if item.link %}<a href="{{ item.link }}" target="_blank">{% endif %}
+        {{ item.text }}
+        {% if item.link %}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</body>
+</html>

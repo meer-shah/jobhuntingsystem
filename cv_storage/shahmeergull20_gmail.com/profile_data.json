@@ -1,0 +1,247 @@
+{
+  "full_name": "Shahmeer Gull",
+  "contact_email": "shahmeergull20@gmail.com",
+  "phone": "+92-311-7433413",
+  "linkedin": "https://www.linkedin.com/in/shahmeer-gull-4aa83726b",
+  "github": "https://github.com/meer-shah",
+  "portfolio": null,
+  "summary": "Machine Learning Enthusiast specializing in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain to build scalable AI solutions.",
+  "education": [
+    {
+      "degree": "Bachelor's in Computer Science",
+      "major": "Computer Science",
+      "institution": "COMSATS University",
+      "dates": "2021-2025",
+      "accredited": true
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Intern - RASTA Tech (Remote)",
+      "company": "RASTA Tech",
+      "dates": "2024-2024",
+      "description": "Contributed to AI-driven solutions using LLMs, RAG, and automation technologies. Built GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB. Created cold email generator and document summarization system."
+    },
+    {
+      "title": "Full Stack Intern - ByteSight Pvt Ltd, Islamabad",
+      "company": "ByteSight Pvt Ltd",
+      "dates": "2024-2024",
+      "description": "Developed responsive frontends using React.js and optimized performance. Built dashboards and data visualization components with senior engineers."
+    },
+    {
+      "title": "MERN Stack Intern",
+      "company": "ByteSight Pvt Ltd",
+      "dates": "2024-2024",
+      "description": "Developed and styled responsive front-end interfaces using React.js and Tailwind CSS. Integrated APIs and enhanced user experience with dynamic, interactive components. Collaborated with team to maintain code quality and implement UI improvements."
+    },
+    {
+      "title": "AI Engineer intern",
+      "company": "RASTA TECH",
+      "dates": "2024-2024",
+      "description": "Improved ML/DL models to enhance chatbot responses and user experience. Preprocessed conversational data, extracted relevant features (like intent, sentiment), and evaluated model performance. Built and fine-tuned models using PyTorch and scikit-learn for tasks like intent classification and response generation"
+    },
+    {
+      "title": "Freelancer",
+      "company": "Fiverr-jauharbad",
+      "dates": "2021-Present",
+      "description": ""
+    },
+    {
+      "title": "Trader",
+      "company": "Bybit-jauharabad",
+      "dates": "2019-Present",
+      "description": ""
+    },
+    {
+      "title": "cold calling",
+      "company": "bali tech-Islamabad",
+      "dates": "2023-2024",
+      "description": ""
+    },
+    {
+      "title": "Tutor",
+      "company": "Dar e Arqam School-jauharabad",
+      "dates": "February 2018-February 2019",
+      "description": ""
+    }
+  ],
+  "technical_skills": [
+    "Python",
+    "PyTorch",
+    "scikit-learn",
+    "RAGs",
+    "Agents",
+    "Prompting",
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "RESTful APIs",
+    "LangChain",
+    "Hugging Face",
+    "IBM Watsonx.ai",
+    "FastAPI",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "Vercel",
+    "Figma",
+    "Chroma DB",
+    "Postman",
+    "Machine Learning & AI",
+    "LLMs & Fine-Tuning: RAG, LangChain, Chroma DB, Prompt Engineering, RLHF, Model Optimization",
+    "Deep Learning: Transformer Models, Attention Mechanisms, Sequence Modeling",
+    "AI Libraries: PyTorch, TensorFlow, Hugging Face, Scikit-Learn, Keras",
+    "Full-Stack Development (MERN)",
+    "Frontend: React.js, Tailwind CSS, Responsive Design",
+    "Backend: Node.js, Express.js, RESTful APIs",
+    "Tools: Git, GitHub, Vercel",
+    "Programming Languages: Python, JavaScript, SQL, C++",
+    "Data Analysis & Engineering",
+    "Data Handling: Pandas, NumPy, Feature Engineering, Efficient Preprocessing",
+    "Databases: SQL, MongoDB, Firebase",
+    "JavaScript",
+    "C++",
+    "Java",
+    "SQL",
+    "PHP",
+    "LLM Fine-Tuning",
+    "Data Manipulation",
+    "Feature Engineering",
+    "Pandas",
+    "SQL",
+    "Tutoring",
+    "Computer Science",
+    "C/C++",
+    "Cryptocurrency",
+    "Trading",
+    "User Interface (UI)",
+    "Agile",
+    "Linux",
+    "Data structures",
+    "Algorithms",
+    "cold calling"
+  ],
+  "certifications": [
+    {
+      "name": "AI for Public Health",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/XU9AC5HQYUC3"
+    },
+    {
+      "name": "Fundamentals of AI Agents Using RAG and LangChain",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/51UIUBC25J82"
+    },
+    {
+      "name": "Generative AI Advance Fine-Tuning for LLMs",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/S2X4OEBN7L7L"
+    },
+    {
+      "name": "Generative AI and LLMs: Architecture and Data Preparation",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/8X9CXVBYDUQO"
+    }
+  ],
+  "projects": [
+    {
+      "title": "MarkVista \u2013 Crypto Prediction & Risk Management",
+      "description": "Built ML models for real-time crypto forecasting and broker integration. Engineered risk profiles for automated portfolio adjustment.",
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "ML Models",
+        "React JS",
+        "MySQL",
+        "Figma",
+        "CoinGecko API",
+        "Postman"
+      ]
+    },
+    {
+      "title": "RAG-Based Content Evaluation",
+      "description": "Used BERT to embed lyrics and match evaluation questions via similarity.",
+      "technologies": [
+        "PyTorch",
+        "BERT",
+        "Hugging Face",
+        "Scikit-learn",
+        "Matplotlib"
+      ]
+    },
+    {
+      "title": "Air Quality Modeling \u2013 Bogot\u00e1",
+      "description": "Performed EDA with geo-visualizations; modeled pollution with KNN and neural networks.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Keras",
+        "Matplotlib",
+        "Seaborn",
+        "GeoPandas"
+      ]
+    },
+    {
+      "title": "Job Hunting Agent",
+      "description": "Built LangChain system to generate tailored CVs, cover letters, and automated outreach.",
+      "technologies": [
+        "Groq API",
+        "LangChain",
+        "Streamlit",
+        "Chroma DB",
+        "Python",
+        "Llama-3.1-8B",
+        "Web Scraping",
+        "JSON Parsing"
+      ]
+    },
+    {
+      "title": "MarkVista \u2013 AI-Powered Crypto Prediction & Risk Management Platform",
+      "description": "Developed ML prediction models for crypto price prediction with real-time market data. Engineered user-configurable risk profiles to manage portfolio risk dynamically. Integrated broker APIs for automated trading execution with responsive risk controls. Visualized analytics through a dynamic portfolio dashboard. Built secure infrastructure and simulated community Q&A. Streamlined user workflows into a unified interface.",
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "ML Models",
+        "React JS",
+        "MySQL",
+        "Figma",
+        "CoinGecko API",
+        "Postman"
+      ]
+    },
+    {
+      "title": "Private Document Summarization with RAG, LangChain, and LLMs",
+      "description": "Built a secure RAG pipeline using LangChain, Chroma DB, and Hugging Face embeddings to summarize private documents locally. Integrated IBM Watsonx.ai LLMs (FLAN-UL2, Llama-3-70B) for summarization and Q&A with prompt tuning and memory. Created a context-aware chatbot using RetrievalQA and ConversationalBufferMemory. Automated internal document analysis, reducing manual review time while maintaining privacy compliance.",
+      "technologies": [
+        "IBM Watsonx.ai",
+        "LangChain",
+        "Hugging Face Embeddings",
+        "Chroma DB",
+        "LLMs",
+        "Python"
+      ]
+    },
+    {
+      "title": "RAG-based Content Evaluation for Children\u2019s Media",
+      "description": "Embedding Generation: Used BERT from Hugging Face's Transformers library to generate embeddings for song lyrics and predefined questions. Similarity Measurement: Implemented dot product and cosine similarity to measure the relevance between song embeddings and question embeddings. Visualization: Applied t-SNE for visualizing high-dimensional embeddings in a 3D space to analyze clustering and patterns. RAG Workflow: Combined a retriever (to fetch relevant embeddings) and a generator (to provide responses) for efficient content evaluation.",
+      "technologies": [
+        "PyTorch",
+        "BERT",
+        "Hugging Face",
+        "Scikit-learn",
+        "Matplotlib"
+      ]
+    }
+  ],
+  "industry_preferences": [
+    "AI",
+    "Machine Learning",
+    "Data Science",
+    "Full-Stack Development",
+    "Cloud Computing",
+    "Software Engineering"
+  ]
+}

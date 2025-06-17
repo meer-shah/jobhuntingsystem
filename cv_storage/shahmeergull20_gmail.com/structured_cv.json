@@ -1,0 +1,164 @@
+{
+  "name": "Shahmeer Gull",
+  "contact": {
+    "email": "shahmeergull20@gmail.com",
+    "phone": "+92-311-7433413",
+    "linkedin": "https://www.linkedin.com/in/shahmeer-gull-4aa83726b",
+    "github": "https://github.com/meer-shah"
+  },
+  "summary": "Machine Learning Enthusiast specializing in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain to build scalable AI solutions.",
+  "experience": [
+    {
+      "title": "AI Engineer Intern",
+      "company": "RASTA Tech",
+      "dates": "2024-2024",
+      "description": [
+        "Contributed to AI-driven solutions using LLMs, RAG, and automation technologies.",
+        "Built GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB.",
+        "Created cold email generator and document summarization system."
+      ],
+      "technologies": [
+        "LLMs",
+        "RAG",
+        "LangChain",
+        "ChromaDB",
+        "GPT"
+      ]
+    },
+    {
+      "title": "Full Stack Intern",
+      "company": "ByteSight Pvt Ltd",
+      "dates": "2024-2024",
+      "description": [
+        "Developed responsive frontends using React.js and optimized performance.",
+        "Built dashboards and data visualization components with senior engineers."
+      ],
+      "technologies": [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js"
+      ]
+    },
+    {
+      "title": "Freelancer",
+      "company": "Fiverr-jauharabad",
+      "dates": "2021-Present",
+      "description": [
+        "Provided AI and full-stack development services to diverse clients.",
+        "Delivered tailored solutions using Python, JavaScript, and SQL."
+      ],
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "SQL",
+        "React.js"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's in Computer Science",
+      "institution": "COMSATS University",
+      "dates": "2021-2025"
+    }
+  ],
+  "skills": {
+    "AI & Data Science": [
+      "PyTorch",
+      "scikit-learn",
+      "RAGs",
+      "LangChain",
+      "Hugging Face",
+      "IBM Watsonx.ai",
+      "Machine Learning & AI",
+      "Deep Learning"
+    ],
+    "Full Stack Development": [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "RESTful APIs",
+      "FastAPI",
+      "MySQL"
+    ],
+    "Tools/Platforms": [
+      "Git",
+      "GitHub",
+      "Vercel",
+      "Figma",
+      "Postman",
+      "Chroma DB"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Private Document Summarization with RAG, LangChain, and LLMs",
+      "description": [
+        "Built a secure RAG pipeline using LangChain, Chroma DB, and Hugging Face embeddings to summarize private documents locally.",
+        "Integrated IBM Watsonx.ai LLMs for summarization and Q&A with prompt tuning and memory.",
+        "Created a context-aware chatbot using RetrievalQA and ConversationalBufferMemory."
+      ],
+      "technologies": [
+        "IBM Watsonx.ai",
+        "LangChain",
+        "Hugging Face",
+        "Chroma DB",
+        "LLMs"
+      ]
+    },
+    {
+      "title": "MarkVista \u2013 AI-Powered Crypto Prediction & Risk Management Platform",
+      "description": [
+        "Developed ML prediction models for crypto price prediction with real-time market data.",
+        "Engineered user-configurable risk profiles to manage portfolio risk dynamically.",
+        "Integrated broker APIs for automated trading execution with responsive risk controls."
+      ],
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "ML Models",
+        "React JS",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "Job Hunting Agent",
+      "description": [
+        "Built LangChain system to generate tailored CVs, cover letters, and automated outreach.",
+        "Utilized Groq API and Chroma DB for efficient data handling."
+      ],
+      "technologies": [
+        "Groq API",
+        "LangChain",
+        "Streamlit",
+        "Chroma DB"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AI for Public Health",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/XU9AC5HQYUC3"
+    },
+    {
+      "name": "Fundamentals of AI Agents Using RAG and LangChain",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/51UIUBC25J82"
+    },
+    {
+      "name": "Generative AI Advance Fine-Tuning for LLMs",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/S2X4OEBN7L7L"
+    }
+  ],
+  "industry_preferences": [
+    "AI",
+    "Machine Learning",
+    "Data Science",
+    "Full-Stack Development",
+    "Software Engineering"
+  ]
+}
