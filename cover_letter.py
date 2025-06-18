@@ -61,9 +61,9 @@ Use the following data to generate a compelling, personalized cover letter.
 ---
 
 ✍️ **Instructions**:
-- Use standard business letter format: Address, Greeting, 1-2 short paragraphs, and Signature.
-- Keep it under 350 words.
-- Address the hiring manager if possible ("Dear Hiring Manager" if not known).
+- Use standard business letter format: Address(if available), Greeting, 1-2 short paragraphs, and Signature.
+- Keep it under 200 words.
+- Address the hiring manager only if name is given .
 - Mention 2–3 core skills or experiences that match the job.
 - End with a polite call to action.
 - Use clear, professional language.
