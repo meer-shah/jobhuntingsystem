@@ -1,0 +1,47 @@
+Shahmeer Gull
+
+Email: shahmeergull20@gmail.com | Phone: +92-311-7433413 | LinkedIn: https://www.linkedin.com/in/shahmeer-gull-4aa83726b | GitHub: https://github.com/meer-shah
+
+ABOUT ME
+AI Engineer specializing in fine-tuning LLMs, RAG, and LangChain for production-ready solutions. Proficient in Python, TensorFlow, PyTorch, and Scikit-Learn with expertise in API design, cloud deployment, and integrating AI models using FastAPI and MERN stack. Experienced with version control, testing, and CI/CD to ensure scalable, high-performance AI applications.
+
+
+EXPERIENCE
+AI Engineer Intern - RASTA TECH (2024-2024)
+- Improved ML/DL models to enhance chatbot responses and user experience.
+- Preprocessed conversational data, extracted relevant features, and evaluated model performance.
+- Built and fine-tuned models using PyTorch and Scikit-Learn for tasks like intent classification and response generation.
+Technologies: PyTorch, Scikit-Learn, RAG, LangChain
+
+MERN Stack Developer - ByteSight Pvt Ltd (2024-2024)
+- Developed and styled responsive front-end interfaces using React.js and Tailwind CSS.
+- Integrated APIs and enhanced user experience with dynamic, interactive components.
+- Collaborated with the team to maintain code quality and implement UI improvements.
+Technologies: React.js, Tailwind CSS, Node.js, Express.js
+
+EDUCATION
+Bachelor's in Computer Science - COMSATS University (2021-2025)
+
+SKILLS
+AI & Data Science: Python, PyTorch, Scikit-Learn, RAGs, Agents, Prompting, LLM Fine-Tuning, Prompt Engineering, TensorFlow
+Full Stack Development: React.js, Tailwind CSS, Node.js, Express.js, RESTful APIs, JavaScript, HTML/CSS
+Tools/Platforms: FastAPI, MySQL, Git, GitHub, Vercel, Figma, Chroma DB, Postman, IBM Watsonx.ai, Hugging Face, LangChain
+
+PROJECTS
+Private Document Summarization with RAG, LangChain, and LLMs
+- Utilized IBM Watsonx.ai, LangChain, and Hugging Face Embeddings for document summarization.
+- Integrated Chroma DB for efficient data management and retrieval.
+
+MarkVista - AI-Powered Crypto Prediction & Risk Management Platform
+- Developed ML prediction models for crypto price prediction with real-time market data.
+- Engineered user-configurable risk profiles to manage portfolio risk dynamically.
+
+Air Quality Analysis & Modeling - Bogotá Pollution Data
+- Cleaned multiyear pollution, weather, and location data from public sources.
+- Developed a hybrid model combining KNN and neural networks for robust pollution estimation.
+
+CERTIFICATIONS
+- AI for Public Health.
+- Fundamentals of AI Agents Using RAG and LangChain.
+- Generative AI Advance Fine-Tuning for LLMs.
+- Generative AI and LLMs: Architecture and Data Preparation.

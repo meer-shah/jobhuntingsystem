@@ -1,0 +1,119 @@
+{
+  "name": "Shahmeer Kamran",
+  "contact": {
+    "email": "shahmeergull20@gmail.com",
+    "phone": "+92-309-0654885",
+    "linkedin": "https://www.linkedin.com/in/shahmeer-gull-4aa83726b",
+    "github": "https://github.com/meer-shah"
+  },
+  "summary": "AI Engineer with expertise in fine-tuning LLMs, RAG, and LangChain. Proficient in Python, TensorFlow, and PyTorch, with experience in API design, cloud deployment, and AI model integration. Strong focus on scalable, high-performance applications.",
+  "experience": [
+    {
+      "title": "AI Engineer Intern",
+      "company": "RASTA Tech",
+      "dates": "2024-01 - 2024-06",
+      "description": [
+        "Fine-tuned LLMs for improved chatbot responses and user experience.",
+        "Preprocessed conversational data and extracted features for intent classification.",
+        "Built and evaluated models using PyTorch and scikit-learn."
+      ],
+      "technologies": [
+        "PyTorch",
+        "scikit-learn",
+        "LLMs",
+        "RAG"
+      ]
+    },
+    {
+      "title": "MERN Stack Developer",
+      "company": "ByteSight Pvt Ltd, Islamabad",
+      "dates": "2024-01 - 2024-06",
+      "description": [
+        "Developed responsive front-end interfaces using React.js and Tailwind CSS.",
+        "Integrated APIs to enhance user experience with dynamic components."
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's in Computer Science",
+      "institution": "COMSATS University",
+      "dates": "2021 - 2025"
+    }
+  ],
+  "skills": {
+    "AI & Data Science": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "scikit-learn",
+      "RAG",
+      "LangChain",
+      "LLM Fine-Tuning"
+    ],
+    "Full Stack Development": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "Tools/Platforms": [
+      "FastAPI",
+      "Git",
+      "GitHub",
+      "Postman"
+    ]
+  },
+  "projects": [
+    {
+      "title": "RAG-Based Content Evaluation",
+      "description": [
+        "Utilized BERT embeddings for similarity matching in evaluation questions."
+      ],
+      "technologies": [
+        "PyTorch",
+        "BERT",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Private Document Summarization with RAG, LangChain, and LLMs",
+      "description": [
+        "Integrated IBM Watsonx.ai and Hugging Face embeddings for summarization tasks."
+      ],
+      "technologies": [
+        "IBM Watsonx.ai",
+        "LangChain",
+        "Hugging Face"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AI for Public Health",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/XU9AC5HQYUC3"
+    },
+    {
+      "name": "Fundamentals of AI Agents Using RAG and LangChain",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/S2X4OEBN7L7L"
+    },
+    {
+      "name": "Generative AI Advance Fine-Tuning for LLMs",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/8X9CXVBYDUQO"
+    },
+    {
+      "name": "Generative AI and LLMs: Architecture and Data Preparation",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/51UIUBC25J82"
+    }
+  ],
+  "industry_preferences": []
+}

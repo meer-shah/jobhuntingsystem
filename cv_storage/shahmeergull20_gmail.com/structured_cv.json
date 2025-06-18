@@ -9,7 +9,7 @@
   "summary": "Machine Learning Enthusiast specializing in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain to build scalable AI solutions.",
   "experience": [
     {
-      "title": "AI Engineer Intern",
+      "title": "AI Intern",
       "company": "RASTA Tech",
       "dates": "2024-2024",
       "description": [
@@ -39,28 +39,14 @@
         "Node.js",
         "Express.js"
       ]
-    },
-    {
-      "title": "Freelancer",
-      "company": "Fiverr-jauharabad",
-      "dates": "2021-Present",
-      "description": [
-        "Provided AI and full-stack development services to diverse clients.",
-        "Delivered tailored solutions using Python, JavaScript, and SQL."
-      ],
-      "technologies": [
-        "Python",
-        "JavaScript",
-        "SQL",
-        "React.js"
-      ]
     }
   ],
   "education": [
     {
       "degree": "Bachelor's in Computer Science",
       "institution": "COMSATS University",
-      "dates": "2021-2025"
+      "dates": "2021-2025",
+      "specialization": "Computer Science"
     }
   ],
   "skills": {
@@ -71,8 +57,10 @@
       "LangChain",
       "Hugging Face",
       "IBM Watsonx.ai",
-      "Machine Learning & AI",
-      "Deep Learning"
+      "Prompt Engineering",
+      "Feature Engineering",
+      "Pandas",
+      "SQL"
     ],
     "Full Stack Development": [
       "React.js",
@@ -81,15 +69,19 @@
       "Express.js",
       "RESTful APIs",
       "FastAPI",
-      "MySQL"
-    ],
-    "Tools/Platforms": [
+      "MySQL",
       "Git",
       "GitHub",
-      "Vercel",
+      "Vercel"
+    ],
+    "Tools/Platforms": [
       "Figma",
       "Postman",
-      "Chroma DB"
+      "Chroma DB",
+      "CoinGecko API",
+      "Matplotlib",
+      "Seaborn",
+      "GeoPandas"
     ]
   },
   "projects": [
@@ -98,7 +90,8 @@
       "description": [
         "Built a secure RAG pipeline using LangChain, Chroma DB, and Hugging Face embeddings to summarize private documents locally.",
         "Integrated IBM Watsonx.ai LLMs for summarization and Q&A with prompt tuning and memory.",
-        "Created a context-aware chatbot using RetrievalQA and ConversationalBufferMemory."
+        "Created a context-aware chatbot using RetrievalQA and ConversationalBufferMemory.",
+        "Automated internal document analysis, reducing manual review time while maintaining privacy compliance."
       ],
       "technologies": [
         "IBM Watsonx.ai",
@@ -109,11 +102,10 @@
       ]
     },
     {
-      "title": "MarkVista \u2013 AI-Powered Crypto Prediction & Risk Management Platform",
+      "title": "MarkVista \u2013 Crypto Prediction & Risk Management",
       "description": [
         "Developed ML prediction models for crypto price prediction with real-time market data.",
-        "Engineered user-configurable risk profiles to manage portfolio risk dynamically.",
-        "Integrated broker APIs for automated trading execution with responsive risk controls."
+        "Engineered user-configurable risk profiles to manage portfolio risk dynamically."
       ],
       "technologies": [
         "FastAPI",
@@ -124,16 +116,16 @@
       ]
     },
     {
-      "title": "Job Hunting Agent",
+      "title": "RAG-Based Content Evaluation",
       "description": [
-        "Built LangChain system to generate tailored CVs, cover letters, and automated outreach.",
-        "Utilized Groq API and Chroma DB for efficient data handling."
+        "Used BERT to embed lyrics and match evaluation questions via similarity.",
+        "Implemented dot product and cosine similarity to measure relevance."
       ],
       "technologies": [
-        "Groq API",
-        "LangChain",
-        "Streamlit",
-        "Chroma DB"
+        "PyTorch",
+        "BERT",
+        "Hugging Face",
+        "Scikit-learn"
       ]
     }
   ],
@@ -152,6 +144,11 @@
       "name": "Generative AI Advance Fine-Tuning for LLMs",
       "issuer": "Coursera",
       "url": "https://www.coursera.org/account/accomplishments/verify/S2X4OEBN7L7L"
+    },
+    {
+      "name": "Generative AI and LLMs: Architecture and Data Preparation",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/8X9CXVBYDUQO"
     }
   ],
   "industry_preferences": [

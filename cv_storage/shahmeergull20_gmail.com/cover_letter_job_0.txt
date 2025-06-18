@@ -2,11 +2,13 @@ March 17, 2023
 
 Dear Hiring Manager,
 
-I am excited to apply for the AI/ML Engineer position at your esteemed organization. As a Machine Learning Enthusiast specializing in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain to build scalable AI solutions, I am confident that my skills align with your requirements.
+I am excited to apply for the CI/ML Engineer position at your esteemed organization. With over 7 years of experience in AI/ML and a strong background in Python, PyTorch, and GNNs, I am confident that I can make a significant impact in your team.
 
-With over 7 years of experience in AI/ML and proficiency in Python, PyTorch, and scikit-learn, I am well-equipped to design Graph Neural Networks and deploy ML pipelines on GCP. My experience in building GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB has honed my skills in vector search with ScaNN. I am confident that my strong client-facing and problem-solving skills will enable me to effectively collaborate with your team.
+As a Machine Learning Enthusiast specializing in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain to build scalable AI solutions. My experience in building GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB, as well as creating cold email generators and document summarization systems, demonstrates my ability to design and deploy ML pipelines on GCP.
 
-I would appreciate the opportunity to discuss my qualifications further and explore how my skills can contribute to your organization's success. Please feel free to contact me at shahmeergull20@gmail.com or +92-311-7433413.
+I am particularly drawn to this role because of the opportunity to work with Graph Neural Networks and deploy ML pipelines on GCP. I am confident that my problem-solving skills, combined with my client-facing experience, make me an ideal fit for this position.
+
+I would appreciate the chance to discuss how my skills can benefit your organization. Please feel free to contact me at shahmeergull20@gmail.com or +92-311-7433413.
 
 Thank you for considering my application.
 

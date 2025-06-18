@@ -2,6 +2,7 @@ import os
 import re
 import json
 import streamlit as st
+import shutil
 from pathlib import Path
 
 STORAGE_DIR = "cv_storage"
@@ -25,8 +26,7 @@ def create_user_profile(email: str, app_password: str) -> str:
         # Create the specific user directory
         user_dir.mkdir(exist_ok=True)
     except OSError as e:
-        st.error(f"Directory creation failed: {str(e)}")
-        raise RuntimeError("Could not create user directory") from e
+        raise RuntimeError(f"Directory creation failed: {str(e)}") from e
     
     credentials_path = user_dir / "credentials.json"
     credentials = {
@@ -38,10 +38,77 @@ def create_user_profile(email: str, app_password: str) -> str:
         with open(credentials_path, "w") as f:
             json.dump(credentials, f, indent=2)
     except IOError as e:
-        st.error(f"File writing failed: {str(e)}")
-        raise RuntimeError("Could not save credentials") from e
+        raise RuntimeError(f"File writing failed: {str(e)}") from e
     
     return str(user_dir)
+
+def update_user_credentials(old_user_dir: str, new_email: str, new_password: str) -> str:
+    """
+    Update user credentials and move directory if email changed
+    Returns the new user directory path
+    """
+    if not re.match(EMAIL_REGEX, new_email):
+        raise ValueError("Invalid email format")
+    
+    old_dir_path = Path(old_user_dir)
+    if not old_dir_path.exists():
+        raise RuntimeError("Current user directory not found")
+    
+    # Get old credentials to compare
+    old_creds_path = old_dir_path / "credentials.json"
+    if not old_creds_path.exists():
+        raise RuntimeError("Current credentials file not found")
+    
+    try:
+        with open(old_creds_path) as f:
+            old_credentials = json.load(f)
+    except (IOError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Error reading old credentials: {str(e)}")
+    
+    old_email = old_credentials.get("USER_EMAIL", "")
+    
+    # Check if email is changing
+    email_changed = old_email.lower() != new_email.lower()
+    
+    if email_changed:
+        # Create new directory path
+        new_safe_email = sanitize_email(new_email)
+        new_dir_path = Path(STORAGE_DIR) / new_safe_email
+        
+        # Check if new directory already exists
+        if new_dir_path.exists():
+            raise RuntimeError(f"A profile with email {new_email} already exists")
+        
+        try:
+            # Move the entire directory to new location
+            shutil.move(str(old_dir_path), str(new_dir_path))
+            user_dir_path = new_dir_path
+        except (OSError, shutil.Error) as e:
+            raise RuntimeError(f"Failed to move user directory: {str(e)}")
+    else:
+        # Email not changed, keep same directory
+        user_dir_path = old_dir_path
+    
+    # Update credentials file with new information
+    new_credentials = {
+        "USER_EMAIL": new_email,
+        "GMAIL_APP_PASSWORD": new_password
+    }
+    
+    credentials_path = user_dir_path / "credentials.json"
+    try:
+        with open(credentials_path, "w") as f:
+            json.dump(new_credentials, f, indent=2)
+    except IOError as e:
+        # If we moved the directory but failed to update credentials, try to move back
+        if email_changed:
+            try:
+                shutil.move(str(user_dir_path), str(old_dir_path))
+            except:
+                pass  # Best effort to restore
+        raise RuntimeError(f"Failed to update credentials: {str(e)}")
+    
+    return str(user_dir_path)
 
 def get_user_email() -> tuple[str, str]:
     """

@@ -1,0 +1,190 @@
+{
+  "full_name": "Shahmeer Gull",
+  "contact_email": "shahmeergull20@gmail.com",
+  "phone": "+92-311-7433413",
+  "linkedin": "https://www.linkedin.com/in/shahmeer-gull-4aa83726b",
+  "github": "https://github.com/meer-shah",
+  "portfolio": null,
+  "summary": "I am a Software Engineer specializing in AI, skilled in fine-tuning LLMs, RAG, and LangChain for production-ready solutions. Proficient in Python, TensorFlow, PyTorch, and Scikit-Learn, I focus on API design, cloud deployment, and integrating AI models using FastAPI and MERN stack. Experienced with version control, testing, and CI/CD, I ensure scalable, high-performance AI applications.",
+  "education": [
+    {
+      "degree": "Bachelor's in Computer Science",
+      "institution": "COMSATS University",
+      "dates": "2021/2025"
+    }
+  ],
+  "experience": [
+    {
+      "job_title": "AI Intern",
+      "company": "RASTA Tech",
+      "description": "Contributed to AI-driven solutions using LLMs, RAG, and automation technologies. Built GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB. Created cold email generator and document summarization system."
+    },
+    {
+      "job_title": "Full Stack Intern",
+      "company": "ByteSight Pvt Ltd, Islamabad",
+      "description": "Developed responsive frontends using React.js and optimized performance. Built dashboards and data visualization components with senior engineers."
+    },
+    {
+      "role": "MERN Stack Developer",
+      "company": "ByteSight Pvt Ltd",
+      "location": "Islamabad",
+      "details": [
+        "Developed and styled responsive front-end interfaces using React.js and Tailwind CSS.",
+        "Integrated APIs and enhanced user experience with dynamic, interactive components.",
+        "Collaborated with team to maintain code quality and implement UI improvements."
+      ]
+    },
+    {
+      "role": "AI Engineer Intern",
+      "company": "RASTA TECH",
+      "location": "Remote",
+      "details": [
+        "Improved ML/DL models to enhance chatbot responses and user experience.",
+        "Preprocessed conversational data, extracted relevant features (like intent, sentiment), and evaluated model performance.",
+        "Built and fine-tuned models using PyTorch and scikit-learn for tasks like intent classification and response generation."
+      ]
+    }
+  ],
+  "technical_skills": [
+    "Python",
+    "PyTorch",
+    "scikit-learn",
+    "RAGs",
+    "Agents",
+    "Prompting",
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "RESTful APIs",
+    "LangChain",
+    "Hugging Face",
+    "IBM Watsonx.ai",
+    "FastAPI",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "Vercel",
+    "Figma",
+    "Chroma DB",
+    "Postman",
+    "JavaScript",
+    "C++",
+    "Java",
+    "SQL",
+    "PHP",
+    "LLM Fine-Tuning",
+    "Prompt Engineering",
+    "TensorFlow",
+    "HTML/CSS",
+    "MongoDB",
+    "Data Manipulation",
+    "Feature Engineering",
+    "Pandas"
+  ],
+  "certifications": [
+    {
+      "name": "AI for Public Health",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/XU9AC5HQYUC3"
+    },
+    {
+      "name": "Fundamentals of AI Agents Using RAG and LangChain",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/S2X4OEBN7L7L"
+    },
+    {
+      "name": "Generative AI Advance Fine-Tuning for LLMs",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/8X9CXVBYDUQO"
+    },
+    {
+      "name": "Generative AI and LLMs: Architecture and Data Preparation",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/51UIUBC25J82"
+    }
+  ],
+  "projects": [
+    {
+      "name": "MarkVista \u2013 Crypto Prediction & Risk Management",
+      "description": "Built ML models for real-time crypto forecasting and broker integration. Engineered risk profiles for automated portfolio adjustment."
+    },
+    {
+      "name": "RAG-Based Content Evaluation",
+      "description": "Used BERT to embed lyrics and match evaluation questions via similarity."
+    },
+    {
+      "name": "Air Quality Modeling \u2013 Bogot\u00e1",
+      "description": "Performed EDA with geo-visualizations; modeled pollution with KNN and neural networks."
+    },
+    {
+      "name": "Job Hunting Agent",
+      "description": "Built LangChain system to generate tailored CVs, cover letters, and automated outreach."
+    },
+    {
+      "name": "MarkVista \u2013 AI-Powered Crypto Prediction & Risk Management Platform",
+      "description": "Developed ML prediction models for crypto price prediction with real-time market data. Engineered user-configurable risk profiles to manage portfolio risk dynamically. Integrated broker APIs for automated trading execution with responsive risk controls. Visualized analytics through a dynamic portfolio dashboard. Built secure infrastructure and simulated community Q&A. Streamlined user workflows into a unified interface.",
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "ML Models",
+        "React JS",
+        "MySQL",
+        "Figma",
+        "CoinGecko API",
+        "Postman"
+      ]
+    },
+    {
+      "name": "Air Quality Analysis & Modeling \u2013 Bogot\u00e1 Pollution Data",
+      "description": "Cleaned multiyear pollution, weather & location data from public sources. Analyzed trends using correlation, time series, and geospatial visualizations. Imputed missing values using linear interpolation, KNN, and neural networks; evaluated with MAE/RMSE. Developed a hybrid model combining KNN and neural networks for robust pollution estimation. Trained and validated models using cross-validation at under-monitored sites. Visualized results with GeoPandas, Folium, and a Jupyter dashboard.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Keras",
+        "Matplotlib",
+        "Seaborn",
+        "GeoPandas"
+      ]
+    },
+    {
+      "name": "Private Document Summarization with RAG, LangChain, and LLMs",
+      "description": "Utilized IBM Watsonx.ai, LangChain, and Hugging Face Embeddings for document summarization.",
+      "technologies": [
+        "IBM Watsonx.ai",
+        "LangChain",
+        "Hugging Face Embeddings",
+        "Chroma DB",
+        "LLMs",
+        "Python"
+      ]
+    },
+    {
+      "name": "RAG-based Content Evaluation for Children\u2019s Media",
+      "description": "Implemented RAG-based content evaluation using PyTorch, BERT, Hugging Face, Scikit-learn, and Matplotlib.",
+      "technologies": [
+        "PyTorch",
+        "BERT",
+        "Hugging Face",
+        "Scikit-learn",
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "Cold Email Generator for Business Outreach",
+      "description": "Developed a cold email generator using Groq API, LangChain, Streamlit, Chroma DB, and Python.",
+      "technologies": [
+        "Groq API",
+        "LangChain",
+        "Streamlit",
+        "Chroma DB",
+        "Python",
+        "Web Scraping",
+        "JSON Parsing"
+      ]
+    }
+  ],
+  "industry_preferences": []
+}

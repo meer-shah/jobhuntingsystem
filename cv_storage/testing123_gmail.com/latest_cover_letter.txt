@@ -1,0 +1,14 @@
+March 17, 2023
+
+Dear Hiring Manager,
+
+I am excited to apply for the AI Engineer position at Rastah Tech, where I can leverage my skills in fine-tuning LLMs, RAG, and LangChain to drive production-ready solutions. With a strong foundation in Python, TensorFlow, PyTorch, and Scikit-Learn, I am confident in my ability to design APIs, deploy cloud solutions, and integrate AI models using FastAPI and MERN stack.
+
+As a seasoned Software Engineer specializing in AI, I have a proven track record of contributing to AI-driven solutions using LLMs, RAG, and automation technologies. My experience in building GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB has equipped me with the skills to tackle complex AI projects. I am excited about the opportunity to bring my skills to Rastah Tech and contribute to the company's success.
+
+I would appreciate the opportunity to discuss how my experience and skills align with the AI Engineer position at Rastah Tech. Please feel free to contact me at shahmeergull20@gmail.com or +92-311-7433413.
+
+Thank you for considering my application.
+
+Sincerely,
+Shahmeer Gull

@@ -1,0 +1,40 @@
+Shahmeer Kamran
+
+Email: shahmeergull20@gmail.com | Phone: +92-309-0654885 | LinkedIn: https://www.linkedin.com/in/shahmeer-gull-4aa83726b | GitHub: https://github.com/meer-shah
+
+ABOUT ME
+AI Engineer with expertise in fine-tuning LLMs, RAG, and LangChain. Proficient in Python, TensorFlow, and PyTorch, with experience in API design, cloud deployment, and AI model integration. Strong focus on scalable, high-performance applications.
+
+
+EXPERIENCE
+AI Engineer Intern - RASTA Tech (2024-01 - 2024-06)
+- Fine-tuned LLMs for improved chatbot responses and user experience.
+- Preprocessed conversational data and extracted features for intent classification.
+- Built and evaluated models using PyTorch and scikit-learn.
+Technologies: PyTorch, scikit-learn, LLMs, RAG
+
+MERN Stack Developer - ByteSight Pvt Ltd, Islamabad (2024-01 - 2024-06)
+- Developed responsive front-end interfaces using React.js and Tailwind CSS.
+- Integrated APIs to enhance user experience with dynamic components.
+Technologies: React.js, Node.js, MongoDB
+
+EDUCATION
+Bachelor's in Computer Science - COMSATS University (2021 - 2025)
+
+SKILLS
+AI & Data Science: Python, TensorFlow, PyTorch, scikit-learn, RAG, LangChain, LLM Fine-Tuning
+Full Stack Development: React.js, Node.js, Express.js, MongoDB
+Tools/Platforms: FastAPI, Git, GitHub, Postman
+
+PROJECTS
+RAG-Based Content Evaluation
+- Utilized BERT embeddings for similarity matching in evaluation questions.
+
+Private Document Summarization with RAG, LangChain, and LLMs
+- Integrated IBM Watsonx.ai and Hugging Face embeddings for summarization tasks.
+
+CERTIFICATIONS
+- AI for Public Health.
+- Fundamentals of AI Agents Using RAG and LangChain.
+- Generative AI Advance Fine-Tuning for LLMs.
+- Generative AI and LLMs: Architecture and Data Preparation.
