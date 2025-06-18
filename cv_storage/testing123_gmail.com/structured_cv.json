@@ -6,38 +6,48 @@
     "linkedin": "https://www.linkedin.com/in/shahmeer-gull-4aa83726b",
     "github": "https://github.com/meer-shah"
   },
-  "summary": "AI Engineer specializing in fine-tuning LLMs, RAG, and LangChain for production-ready solutions. Proficient in Python, TensorFlow, PyTorch, and Scikit-Learn with expertise in API design, cloud deployment, and integrating AI models using FastAPI and MERN stack. Experienced with version control, testing, and CI/CD to ensure scalable, high-performance AI applications.",
+  "summary": "AI Engineer specializing in fine-tuning LLMs, RAG, and LangChain for production-ready solutions. Skilled in Python, TensorFlow, PyTorch, and Scikit-Learn, with expertise in API design, cloud deployment, and integrating AI models using FastAPI and MERN stack. Experienced with version control, testing, and CI/CD, ensuring scalable, high-performance AI applications. Certified in AI for Public Health, Fundamentals of AI Agents, Generative AI, and LLM Architecture.",
   "experience": [
     {
       "title": "AI Engineer Intern",
-      "company": "RASTA TECH",
+      "company": "RASTA Tech",
       "dates": "2024-2024",
       "description": [
+        "Contributed to AI-driven solutions using LLMs, RAG, and automation technologies.",
+        "Built GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB.",
+        "Created cold email generator and document summarization system.",
         "Improved ML/DL models to enhance chatbot responses and user experience.",
         "Preprocessed conversational data, extracted relevant features, and evaluated model performance.",
-        "Built and fine-tuned models using PyTorch and Scikit-Learn for tasks like intent classification and response generation."
+        "Built and fine-tuned models using PyTorch and Scikit-Learn for intent classification and response generation."
       ],
       "technologies": [
-        "PyTorch",
-        "Scikit-Learn",
+        "LLMs",
         "RAG",
-        "LangChain"
+        "LangChain",
+        "ChromaDB",
+        "Python",
+        "PyTorch",
+        "Scikit-Learn"
       ]
     },
     {
-      "title": "MERN Stack Developer",
+      "title": "Full Stack Developer",
       "company": "ByteSight Pvt Ltd",
       "dates": "2024-2024",
       "description": [
+        "Developed responsive frontends using React.js and optimized performance.",
+        "Built dashboards and data visualization components with senior engineers.",
         "Developed and styled responsive front-end interfaces using React.js and Tailwind CSS.",
         "Integrated APIs and enhanced user experience with dynamic, interactive components.",
-        "Collaborated with the team to maintain code quality and implement UI improvements."
+        "Collaborated with team to maintain code quality and implement UI improvements."
       ],
       "technologies": [
         "React.js",
         "Tailwind CSS",
         "Node.js",
-        "Express.js"
+        "Express.js",
+        "RESTful APIs",
+        "MongoDB"
       ]
     }
   ],
@@ -45,11 +55,12 @@
     {
       "degree": "Bachelor's in Computer Science",
       "institution": "COMSATS University",
-      "dates": "2021-2025"
+      "dates": "2021-06/2025",
+      "specialization": "Computer Science"
     }
   ],
   "skills": {
-    "AI & Data Science": [
+    "AI/ML": [
       "Python",
       "PyTorch",
       "Scikit-Learn",
@@ -60,35 +71,69 @@
       "Prompt Engineering",
       "TensorFlow"
     ],
-    "Full Stack Development": [
+    "Frontend": [
       "React.js",
-      "Tailwind CSS",
+      "Tailwind CSS"
+    ],
+    "Backend": [
       "Node.js",
       "Express.js",
-      "RESTful APIs",
-      "JavaScript",
-      "HTML/CSS"
+      "RESTful APIs"
     ],
-    "Tools/Platforms": [
+    "Databases": [
+      "MongoDB",
+      "MySQL"
+    ],
+    "Tools": [
       "FastAPI",
-      "MySQL",
       "Git",
       "GitHub",
       "Vercel",
       "Figma",
-      "Chroma DB",
       "Postman",
-      "IBM Watsonx.ai",
+      "Chroma DB",
       "Hugging Face",
+      "IBM Watsonx.ai",
       "LangChain"
+    ],
+    "Other": [
+      "JavaScript",
+      "C++",
+      "Java",
+      "SQL",
+      "PHP",
+      "HTML/CSS",
+      "Data Manipulation",
+      "Feature Engineering",
+      "Pandas"
     ]
   },
   "projects": [
     {
+      "title": "MarkVista \u2013 AI-Powered Crypto Prediction & Risk Management Platform",
+      "description": [
+        "Developed ML prediction models for crypto price prediction with real-time market data.",
+        "Engineered user-configurable risk profiles to manage portfolio risk dynamically.",
+        "Integrated broker APIs for automated trading execution with responsive risk controls.",
+        "Visualized analytics through a dynamic portfolio dashboard.",
+        "Built secure infrastructure and simulated community Q&A.",
+        "Streamlined user workflows into a unified interface."
+      ],
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "ML Models",
+        "React JS",
+        "MySQL",
+        "Figma",
+        "CoinGecko API",
+        "Postman"
+      ]
+    },
+    {
       "title": "Private Document Summarization with RAG, LangChain, and LLMs",
       "description": [
-        "Utilized IBM Watsonx.ai, LangChain, and Hugging Face Embeddings for document summarization.",
-        "Integrated Chroma DB for efficient data management and retrieval."
+        "Utilized IBM Watsonx.ai, LangChain, and Hugging Face Embeddings for document summarization."
       ],
       "technologies": [
         "IBM Watsonx.ai",
@@ -100,24 +145,25 @@
       ]
     },
     {
-      "title": "MarkVista \u2013 AI-Powered Crypto Prediction & Risk Management Platform",
+      "title": "RAG-Based Content Evaluation for Children's Media",
       "description": [
-        "Developed ML prediction models for crypto price prediction with real-time market data.",
-        "Engineered user-configurable risk profiles to manage portfolio risk dynamically."
+        "Implemented RAG-based evaluation using PyTorch, BERT, and Hugging Face."
       ],
       "technologies": [
-        "FastAPI",
-        "Python",
-        "ML Models",
-        "React JS",
-        "MySQL"
+        "PyTorch",
+        "BERT",
+        "Hugging Face",
+        "Scikit-learn",
+        "Matplotlib"
       ]
     },
     {
       "title": "Air Quality Analysis & Modeling \u2013 Bogot\u00e1 Pollution Data",
       "description": [
-        "Cleaned multiyear pollution, weather, and location data from public sources.",
-        "Developed a hybrid model combining KNN and neural networks for robust pollution estimation."
+        "Cleaned multiyear pollution, weather & location data from public sources.",
+        "Analyzed trends using correlation, time series, and geospatial visualizations.",
+        "Developed a hybrid model combining KNN and neural networks for robust pollution estimation.",
+        "Visualized results with GeoPandas, Folium, and a Jupyter dashboard."
       ],
       "technologies": [
         "Python",
@@ -128,6 +174,22 @@
         "Matplotlib",
         "Seaborn",
         "GeoPandas"
+      ]
+    },
+    {
+      "title": "Cold Email Generator for Business Outreach",
+      "description": [
+        "Developed a cold email generator using Groq API and LangChain."
+      ],
+      "technologies": [
+        "Groq API",
+        "LangChain",
+        "Streamlit",
+        "Chroma DB",
+        "Python",
+        "Llama-3.1-8B",
+        "Web Scraping",
+        "JSON Parsing"
       ]
     }
   ],
@@ -152,5 +214,6 @@
       "issuer": "Coursera",
       "verification_url": "https://www.coursera.org/account/accomplishments/verify/51UIUBC25J82"
     }
-  ]
+  ],
+  "industry_preferences": []
 }

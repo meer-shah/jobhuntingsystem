@@ -324,40 +324,17 @@ def handle_credential_update():
 def main():
     st.title("AI Job Application Assistant")
     
-    # Handle logout if requested
+    # Handle logout if requested - FIXED VERSION
     if st.session_state.logout_requested:
         reset_session()
         st.success("Logged out successfully!")
         time.sleep(1)
-        st.rerun()
+        # Don't rerun here, let it fall through to show login page
+        st.session_state.logout_requested = False  # Reset the flag
     
-    # Add header buttons if user is logged in
-    if st.session_state.user_email:
-        col1, col2, col3 = st.columns([2, 1, 1])
-        with col1:
-            st.write(f"👤 Logged in as: **{st.session_state.user_email}**")
-        with col2:
-            if st.button("🔧 Change Credentials", key="change_credentials_button"):
-                st.session_state.show_credential_update = True
-                st.session_state.credential_update_success = None
-                st.rerun()
-        with col3:
-            if st.button("Logout", key="logout_button"):
-                st.session_state.logout_requested = True
-                st.rerun()
-        
-        # Show success message if credentials were updated
-        if st.session_state.credential_update_success:
-            st.success(st.session_state.credential_update_success)
-            st.session_state.credential_update_success = None
-    
-    # Handle credential update
-    if st.session_state.show_credential_update:
-        handle_credential_update()
-        return
-    
-    # Handle GROQ API key
-    if st.session_state.llm is None or st.session_state.reset_api_key:
+    # Handle GROQ API key - MOVE THIS AFTER LOGIN CHECK
+    # Only show API key setup if user is logged in
+    if st.session_state.user_dir is not None and (st.session_state.llm is None or st.session_state.reset_api_key):
         with st.expander("🔑 Groq API Key Setup", expanded=True):
             if st.session_state.reset_api_key:
                 st.warning("Please enter a new Groq API key")
@@ -391,7 +368,7 @@ def main():
             if st.session_state.credentials_error:
                 st.error(st.session_state.credentials_error)
             
-            return
+            return  # Stop here until API key is set
     
     # User authentication and profile management
     if st.session_state.user_dir is None:
@@ -451,6 +428,36 @@ def main():
                 st.error(st.session_state.credentials_error)
             
             st.info("Don't have an account? Click 'Create Profile'. Forgot password? You'll need to create a new profile.")
+        return  # Stop here - user needs to login first
+    
+    # Add header buttons if user is logged in
+    if st.session_state.user_email:
+        col1, col2, col3 = st.columns([2, 1, 1])
+        with col1:
+            st.write(f"👤 Logged in as: **{st.session_state.user_email}**")
+        with col2:
+            if st.button("🔧 Change Credentials", key="change_credentials_button"):
+                st.session_state.show_credential_update = True
+                st.session_state.credential_update_success = None
+                st.rerun()
+        with col3:
+            if st.button("Logout", key="logout_button"):
+                st.session_state.logout_requested = True
+                st.rerun()
+        
+        # Show success message if credentials were updated
+        if st.session_state.credential_update_success:
+            st.success(st.session_state.credential_update_success)
+            st.session_state.credential_update_success = None
+    
+    # Handle credential update
+    if st.session_state.show_credential_update:
+        handle_credential_update()
+        return
+    
+    # Check if API key is needed before showing main content
+    if st.session_state.llm is None:
+        st.warning("Please set up your Groq API key in the section above to continue.")
         return
     
     # CV Management
@@ -774,6 +781,5 @@ def main():
                         st.warning("Please select a CV file for batch processing.")
         else:
             st.info("Please enter a job posting or upload an Excel file to proceed")
-
 if __name__ == "__main__":
     main()

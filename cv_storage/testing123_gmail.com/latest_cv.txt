@@ -3,42 +3,61 @@ Shahmeer Gull
 Email: shahmeergull20@gmail.com | Phone: +92-311-7433413 | LinkedIn: https://www.linkedin.com/in/shahmeer-gull-4aa83726b | GitHub: https://github.com/meer-shah
 
 ABOUT ME
-AI Engineer specializing in fine-tuning LLMs, RAG, and LangChain for production-ready solutions. Proficient in Python, TensorFlow, PyTorch, and Scikit-Learn with expertise in API design, cloud deployment, and integrating AI models using FastAPI and MERN stack. Experienced with version control, testing, and CI/CD to ensure scalable, high-performance AI applications.
+AI Engineer specializing in fine-tuning LLMs, RAG, and LangChain for production-ready solutions. Skilled in Python, TensorFlow, PyTorch, and Scikit-Learn, with expertise in API design, cloud deployment, and integrating AI models using FastAPI and MERN stack. Experienced with version control, testing, and CI/CD, ensuring scalable, high-performance AI applications. Certified in AI for Public Health, Fundamentals of AI Agents, Generative AI, and LLM Architecture.
 
 
 EXPERIENCE
-AI Engineer Intern - RASTA TECH (2024-2024)
+AI Engineer Intern - RASTA Tech (2024-2024)
+- Contributed to AI-driven solutions using LLMs, RAG, and automation technologies.
+- Built GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB.
+- Created cold email generator and document summarization system.
 - Improved ML/DL models to enhance chatbot responses and user experience.
 - Preprocessed conversational data, extracted relevant features, and evaluated model performance.
-- Built and fine-tuned models using PyTorch and Scikit-Learn for tasks like intent classification and response generation.
-Technologies: PyTorch, Scikit-Learn, RAG, LangChain
+- Built and fine-tuned models using PyTorch and Scikit-Learn for intent classification and response generation.
+Technologies: LLMs, RAG, LangChain, ChromaDB, Python, PyTorch, Scikit-Learn
 
-MERN Stack Developer - ByteSight Pvt Ltd (2024-2024)
+Full Stack Developer - ByteSight Pvt Ltd (2024-2024)
+- Developed responsive frontends using React.js and optimized performance.
+- Built dashboards and data visualization components with senior engineers.
 - Developed and styled responsive front-end interfaces using React.js and Tailwind CSS.
 - Integrated APIs and enhanced user experience with dynamic, interactive components.
-- Collaborated with the team to maintain code quality and implement UI improvements.
-Technologies: React.js, Tailwind CSS, Node.js, Express.js
+- Collaborated with team to maintain code quality and implement UI improvements.
+Technologies: React.js, Tailwind CSS, Node.js, Express.js, RESTful APIs, MongoDB
 
 EDUCATION
-Bachelor's in Computer Science - COMSATS University (2021-2025)
+Bachelor's in Computer Science - COMSATS University (2021-06/2025) | Specialization: Computer Science
 
 SKILLS
-AI & Data Science: Python, PyTorch, Scikit-Learn, RAGs, Agents, Prompting, LLM Fine-Tuning, Prompt Engineering, TensorFlow
-Full Stack Development: React.js, Tailwind CSS, Node.js, Express.js, RESTful APIs, JavaScript, HTML/CSS
-Tools/Platforms: FastAPI, MySQL, Git, GitHub, Vercel, Figma, Chroma DB, Postman, IBM Watsonx.ai, Hugging Face, LangChain
+AI/ML: Python, PyTorch, Scikit-Learn, RAGs, Agents, Prompting, LLM Fine-Tuning, Prompt Engineering, TensorFlow
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js, RESTful APIs
+Databases: MongoDB, MySQL
+Tools: FastAPI, Git, GitHub, Vercel, Figma, Postman, Chroma DB, Hugging Face, IBM Watsonx.ai, LangChain
+Other: JavaScript, C++, Java, SQL, PHP, HTML/CSS, Data Manipulation, Feature Engineering, Pandas
 
 PROJECTS
-Private Document Summarization with RAG, LangChain, and LLMs
-- Utilized IBM Watsonx.ai, LangChain, and Hugging Face Embeddings for document summarization.
-- Integrated Chroma DB for efficient data management and retrieval.
-
 MarkVista - AI-Powered Crypto Prediction & Risk Management Platform
 - Developed ML prediction models for crypto price prediction with real-time market data.
 - Engineered user-configurable risk profiles to manage portfolio risk dynamically.
+- Integrated broker APIs for automated trading execution with responsive risk controls.
+- Visualized analytics through a dynamic portfolio dashboard.
+- Built secure infrastructure and simulated community Q&A.
+- Streamlined user workflows into a unified interface.
+
+Private Document Summarization with RAG, LangChain, and LLMs
+- Utilized IBM Watsonx.ai, LangChain, and Hugging Face Embeddings for document summarization.
+
+RAG-Based Content Evaluation for Children's Media
+- Implemented RAG-based evaluation using PyTorch, BERT, and Hugging Face.
 
 Air Quality Analysis & Modeling - Bogotá Pollution Data
-- Cleaned multiyear pollution, weather, and location data from public sources.
+- Cleaned multiyear pollution, weather & location data from public sources.
+- Analyzed trends using correlation, time series, and geospatial visualizations.
 - Developed a hybrid model combining KNN and neural networks for robust pollution estimation.
+- Visualized results with GeoPandas, Folium, and a Jupyter dashboard.
+
+Cold Email Generator for Business Outreach
+- Developed a cold email generator using Groq API and LangChain.
 
 CERTIFICATIONS
 - AI for Public Health.

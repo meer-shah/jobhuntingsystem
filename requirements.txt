@@ -7,3 +7,4 @@ PyMuPDF
 unstructured
 fpdf
 python-docx
+openpyxl
