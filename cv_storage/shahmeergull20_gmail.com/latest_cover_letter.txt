@@ -1,12 +1,12 @@
 March 17, 2023
 
-Dear Tarun Agrawal,
+Dear Hiring Manager,
 
-I am excited to apply for the Generative AI Engineer position, where I can leverage my expertise in machine learning and AI-driven solutions to drive innovation. With a strong background in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain, I am confident in building scalable AI solutions that can benefit your organization.
+I am excited to apply for the AI Job at RASTA Tech, where I can leverage my expertise in fine-tuning large language models (LLMs), Retrieval-Augmented Generation (RAG), and LangChain to build scalable AI solutions.
 
-As a Machine Learning Enthusiast, I have contributed to AI-driven solutions using LLMs, RAG, and automation technologies. My experience in building GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB has equipped me with the skills to develop innovative solutions. I am excited to bring my skills to your team and contribute to the development of cutting-edge AI solutions.
+As a Machine Learning Enthusiast with a strong background in Python, PyTorch, and scikit-learn, I am confident in my ability to contribute to AI-driven solutions. My experience in building GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB has equipped me with the skills to tackle complex projects. I am excited about the prospect of working with RASTA Tech to drive innovation in the tech industry. I am confident that my skills in LLM fine-tuning, data manipulation, and feature engineering will be a valuable asset to your team.
 
-I would appreciate the opportunity to discuss how my skills and experience align with your organization's goals. Please feel free to contact me at +92-311-7433413 or shahmeergull20@gmail.com.
+I would appreciate the opportunity to discuss how my skills and experience align with the requirements of the AI Job. Please feel free to contact me at shahmeergull20@gmail.com or +92-311-7433413.
 
 Thank you for considering my application.
 

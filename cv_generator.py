@@ -520,6 +520,8 @@ def generate_custom_cv(
     action: Literal["preview", "save", "edit"] = "preview",
     edit_instructions: str = ""
 ) -> str:
+    llm = get_llm()
+    
     # Load user profile
     profile_path = Path(user_dir) / "profile_data.json"
     if not profile_path.exists():

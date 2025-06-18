@@ -18,11 +18,11 @@
         "Created cold email generator and document summarization system."
       ],
       "technologies": [
-        "LLMs",
-        "RAG",
         "LangChain",
         "ChromaDB",
-        "GPT"
+        "GPT",
+        "LLMs",
+        "RAG"
       ]
     },
     {
@@ -35,9 +35,9 @@
       ],
       "technologies": [
         "React.js",
-        "Tailwind CSS",
+        "TypeScript",
         "Node.js",
-        "Express.js"
+        "RESTful APIs"
       ]
     }
   ],
@@ -57,31 +57,23 @@
       "LangChain",
       "Hugging Face",
       "IBM Watsonx.ai",
-      "Prompt Engineering",
-      "Feature Engineering",
-      "Pandas",
-      "SQL"
+      "FastAPI",
+      "Machine Learning & AI",
+      "Deep Learning"
     ],
     "Full Stack Development": [
       "React.js",
       "Tailwind CSS",
       "Node.js",
       "Express.js",
-      "RESTful APIs",
-      "FastAPI",
-      "MySQL",
-      "Git",
-      "GitHub",
-      "Vercel"
+      "RESTful APIs"
     ],
     "Tools/Platforms": [
+      "Git",
+      "GitHub",
+      "Vercel",
       "Figma",
-      "Postman",
-      "Chroma DB",
-      "CoinGecko API",
-      "Matplotlib",
-      "Seaborn",
-      "GeoPandas"
+      "Postman"
     ]
   },
   "projects": [
@@ -90,19 +82,18 @@
       "description": [
         "Built a secure RAG pipeline using LangChain, Chroma DB, and Hugging Face embeddings to summarize private documents locally.",
         "Integrated IBM Watsonx.ai LLMs for summarization and Q&A with prompt tuning and memory.",
-        "Created a context-aware chatbot using RetrievalQA and ConversationalBufferMemory.",
-        "Automated internal document analysis, reducing manual review time while maintaining privacy compliance."
+        "Created a context-aware chatbot using RetrievalQA and ConversationalBufferMemory."
       ],
       "technologies": [
         "IBM Watsonx.ai",
         "LangChain",
-        "Hugging Face",
+        "Hugging Face Embeddings",
         "Chroma DB",
         "LLMs"
       ]
     },
     {
-      "title": "MarkVista \u2013 Crypto Prediction & Risk Management",
+      "title": "MarkVista \u2013 AI-Powered Crypto Prediction & Risk Management Platform",
       "description": [
         "Developed ML prediction models for crypto price prediction with real-time market data.",
         "Engineered user-configurable risk profiles to manage portfolio risk dynamically."
@@ -116,10 +107,10 @@
       ]
     },
     {
-      "title": "RAG-Based Content Evaluation",
+      "title": "RAG-Based Content Evaluation for Children\u2019s Media",
       "description": [
-        "Used BERT to embed lyrics and match evaluation questions via similarity.",
-        "Implemented dot product and cosine similarity to measure relevance."
+        "Embedded song lyrics and questions using BERT from Hugging Face's Transformers library.",
+        "Implemented similarity measurement and visualization for content evaluation."
       ],
       "technologies": [
         "PyTorch",
@@ -155,7 +146,6 @@
     "AI",
     "Machine Learning",
     "Data Science",
-    "Full-Stack Development",
     "Software Engineering"
   ]
 }

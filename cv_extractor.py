@@ -45,7 +45,7 @@ def get_llm():
         max_retries=2
     )
     
-llm = get_llm()
+
 
 def extract_pdf_content(pdf_path: str) -> Tuple[str, List[str]]:
     """Extract both text and hidden links from PDF using PyMuPDF"""
@@ -213,6 +213,10 @@ Extract structured information while identifying transferable skills and cross-d
 
 def parse_cv(text: str, links: List[str]) -> dict:
     """Process CV text and links through LLM parsing chain"""
+    llm = get_llm()
+    if llm is None:
+        st.error("LLM not configured. Please set up your environment variables.")
+        return {}
     try:
         parser = create_parser()
         prompt = create_prompt(parser)
@@ -236,6 +240,10 @@ def save_parsed_data(data: dict, user_dir: str) -> None:
 
 def merge_with_llm(existing: dict, new: dict) -> dict:
     """Use LLM to intelligently merge two structured profile dicts."""
+    llm = get_llm()
+    if llm is None:
+        st.error("LLM not configured. Please set up your environment variables.")
+        return {}
     if not existing:
         return new
     if not new:

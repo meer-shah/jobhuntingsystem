@@ -118,7 +118,7 @@ def quick_send_application():
         cover_letter_text = generate_cover_letter(
             st.session_state.user_dir,
             st.session_state.extracted_job_data,
-            st.session_state.llm,
+            # st.session_state.llm,
             action="preview"
         )
         
@@ -166,7 +166,7 @@ def process_excel_job(job_text, job_index, total_jobs):
         cover_letter_text = generate_cover_letter(
             st.session_state.user_dir,
             extracted_job_data,
-            st.session_state.llm,
+            # st.session_state.llm,
             action="preview"
         )
         
@@ -658,7 +658,7 @@ def main():
                                     cover_letter_text = generate_cover_letter(
                                         st.session_state.user_dir,
                                         st.session_state.extracted_job_data,
-                                        st.session_state.llm,
+                                        # st.session_state.llm,
                                         action="preview"
                                     )
                                     st.session_state.cover_letter_text = cover_letter_text
@@ -699,7 +699,7 @@ def main():
                                                 edited_letter = generate_cover_letter(
                                                     st.session_state.user_dir,
                                                     st.session_state.extracted_job_data,
-                                                    st.session_state.llm,
+                                                    # st.session_state.llm,
                                                     action="edit",
                                                     edit_instructions=current_edit_letter
                                                 )

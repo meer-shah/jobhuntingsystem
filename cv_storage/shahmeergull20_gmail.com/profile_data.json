@@ -11,19 +11,21 @@
       "degree": "Bachelor's in Computer Science",
       "major": "Computer Science",
       "institution": "COMSATS University",
-      "dates": "2021-2025",
-      "accredited": true
+      "start_date": "2021",
+      "end_date": "2025",
+      "accredited": true,
+      "notes": "Ongoing"
     }
   ],
   "experience": [
     {
-      "title": "AI Intern - RASTA Tech (Remote)",
+      "title": "AI Intern",
       "company": "RASTA Tech",
       "dates": "2024-2024",
       "description": "Contributed to AI-driven solutions using LLMs, RAG, and automation technologies. Built GPT-based chatbots for SaaS, real estate, and e-commerce using LangChain and ChromaDB. Created cold email generator and document summarization system."
     },
     {
-      "title": "Full Stack Intern - ByteSight Pvt Ltd, Islamabad",
+      "title": "Full Stack Intern",
       "company": "ByteSight Pvt Ltd",
       "dates": "2024-2024",
       "description": "Developed responsive frontends using React.js and optimized performance. Built dashboards and data visualization components with senior engineers."
@@ -38,7 +40,7 @@
       "title": "AI Engineer intern",
       "company": "RASTA TECH",
       "dates": "2024-2024",
-      "description": "Improved ML/DL models to enhance chatbot responses and user experience. Preprocessed conversational data, extracted relevant features (like intent, sentiment), and evaluated model performance. Built and fine-tuned models using PyTorch and scikit-learn for tasks like intent classification and response generation"
+      "description": "Improved ML/DL models to enhance chatbot responses and user experience. Preprocessed conversational data, extracted relevant features (like intent, sentiment), and evaluated model performance. Built and fine-tuned models using PyTorch and scikit-learn for tasks like intent classification and response generation."
     },
     {
       "title": "Freelancer",
@@ -142,6 +144,26 @@
       "name": "Generative AI and LLMs: Architecture and Data Preparation",
       "issuer": "Coursera",
       "url": "https://www.coursera.org/account/accomplishments/verify/8X9CXVBYDUQO"
+    },
+    {
+      "name": "AI for Public Health",
+      "issuer": "Unknown",
+      "url": "https://drive.google.com/file/d/1eN89_OGkgF4Qj0I7_JxATnY4VCt3fnSU/view?usp=drive_link"
+    },
+    {
+      "name": "Fundamentals of AI Agents Using RAG and LangChain",
+      "issuer": "Unknown",
+      "url": "https://drive.google.com/file/d/1ay5-0kTF1TIjdJHRw7ruPZyLDRYNXezj/view?usp=drive_link"
+    },
+    {
+      "name": "Generative AI Advance Fine-Tuning for LLMs",
+      "issuer": "Unknown",
+      "url": "https://drive.google.com/file/d/1hzZevapUI-5iJjasMP9cyM1doV1AxaYR/view?usp=drive_link"
+    },
+    {
+      "name": "Generative AI and LLMs: Architecture and Data Preparation",
+      "issuer": "Unknown",
+      "url": "https://drive.google.com/file/d/1GGCPAkggW5HD9RgVGyZxQ_KhO-dmOSlL/view?usp=drive_link"
     }
   ],
   "projects": [

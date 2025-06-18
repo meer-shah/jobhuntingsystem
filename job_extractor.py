@@ -21,9 +21,12 @@ def get_llm():
         max_retries=2
     )
     
-llm = get_llm()
+
 def extract_job_and_contact_info(job_paragraph: str) -> dict:  # Changed return type to dict
-    
+    llm = get_llm()
+    if llm is None:
+        raise ValueError("LLM not configured. Please set up your environment variables.")
+        
     prompt_extract = PromptTemplate.from_template("""
 ### JOB POSTING ANALYSIS TASK
 Analyze this job posting and extract structured information:

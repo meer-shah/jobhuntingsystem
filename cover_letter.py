@@ -5,14 +5,34 @@ from pathlib import Path
 import json
 from typing import Dict, Literal
 import streamlit as st
+from langchain_groq import ChatGroq
+import os
+
+
+def get_llm():
+    if "GROQ_API_KEY" not in os.environ:
+        return None
+    
+    return ChatGroq(
+        model="llama3-70b-8192",
+        temperature=0,
+        max_tokens=None,
+        timeout=None,
+        max_retries=2
+    )
 
 def generate_cover_letter(
+    
     user_dir: str,
     job_posting_info: Dict,
-    llm,
+    
     action: Literal["preview", "edit"] = "preview",
     edit_instructions: str = ""
 ) -> str:
+    llm = get_llm()
+    if llm is None:
+        st.error("LLM not configured. Please set up your environment variables.")
+        return {}
     profile_path = Path(user_dir) / "profile_data.json"
     if not profile_path.exists():
         raise FileNotFoundError("User profile_data.json not found.")
