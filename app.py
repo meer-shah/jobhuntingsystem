@@ -375,7 +375,7 @@ def main():
         with st.expander("👤 User Authentication", expanded=True):
             st.subheader("Login or Create Profile")
             email = st.text_input("Your email:", key="user_email_input")
-            password = st.text_input("Your password:", type="password", key="user_pwd_input")
+            password = st.text_input("Your email app STMP password:", type="password", key="user_pwd_input")
             
             col1, col2 = st.columns(2)
             with col1:
